@@ -1,9 +1,12 @@
 import React from 'react'
-
+import Header from './Header';
+import Product from './Product';
 const Home = ()=> {
     return (
         <>
-            <button>Add to Cart</button>
+            <Header />
+            <Product />
+            
         </>
     )
 }

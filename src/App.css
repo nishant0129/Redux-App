@@ -1,4 +1,21 @@
+.header {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
 
+.header img {
+    margin-right: 30px;
+    width: 30px;
+    aspect-ratio: 1;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
 
 .App{
     text-align: center;
